@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "openlanport",
+  "version": "1.0.0",
+  "name": "Open to LAN Port",
+  "description": "Adds a port number field to the Open to LAN screen.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "mixins": ["openlanport.mixins.json"],
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": "1.6.4",
+    "java": ">=8"
+  }
+}

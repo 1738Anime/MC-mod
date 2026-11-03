@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.openlanport.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "client": [
+    "HttpUtilMixin",
+    "OpenToLanScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
